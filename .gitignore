@@ -1,0 +1,5 @@
+"# Python ve Django ignore dosyasç" 
+"__pycache__/" 
+"venv/" 
+"*.pyc" 
+"db.sqlite3" 
