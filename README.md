@@ -836,6 +836,5 @@ Sorun yaşıyorsanız:
 
 ---
 
-**Not**: Bu proje aktif geliştirme aşamasındadır. Önerileriniz ve katkılarınız değerlidir!
 
 
