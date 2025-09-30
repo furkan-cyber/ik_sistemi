@@ -105,7 +105,7 @@ Profesyonel insan kaynakları yönetimi için geliştirilmiş kapsamlı Django t
 
 1. **Repoyu Klonlayın**
 ```bash
-git clone <repository-url>
+git clone https://github.com/furkan-cyber/ik_sistemi.git
 cd ik_sistemi
 ```
 
