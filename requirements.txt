@@ -7,7 +7,7 @@ Django==4.2.7
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.0
 
-# Database
+# Database - psycopg2 yerine psycopg2-binary kullan
 psycopg2-binary==2.9.10
 
 # Celery ve Redis
@@ -32,3 +32,4 @@ gunicorn==21.2.0
 coverage==7.3.2
 python-dotenv==1.0.0
 django-filter==23.3
+django-cors-headers==4.3.1
