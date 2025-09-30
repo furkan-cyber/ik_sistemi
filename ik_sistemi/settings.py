@@ -57,16 +57,16 @@ TEMPLATES = [
  
 WSGI_APPLICATION = 'ik_sistemi.wsgi.application' 
  
-DATABASES = { 
-    'default': { 
-        'ENGINE': 'django.db.backends.postgresql', 
-        'NAME': 'ik_sistemi', 
-        'USER': 'ik_user', 
-        'PASSWORD': 'ik_password', 
-        'HOST': 'localhost', 
-        'PORT': '5432', 
-    } 
-} 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('DB_NAME', 'ik_sistemi'),
+        'USER': os.getenv('DB_USER', 'ik_user'),
+        'PASSWORD': os.getenv('DB_PASSWORD', 'ik_password'),
+        'HOST': os.getenv('DB_HOST', 'db'),  # 'localhost' yerine 'db'
+        'PORT': os.getenv('DB_PORT', '5432'),
+    }
+}
  
 AUTH_PASSWORD_VALIDATORS = [ 
     { 
